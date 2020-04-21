@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-with-vue-wc';
+
+  showAlert(event) {
+    console.log('event fired:', event.detail);
+  }
 }
